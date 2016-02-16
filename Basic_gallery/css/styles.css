@@ -15,6 +15,7 @@ body {
   height: 100vh;
   width: 100vw;
   margin: auto;
+  max-width: 1400px;
 }
 
 #main {
@@ -45,6 +46,7 @@ article {
 }
 
 @media screen and (min-width: 950px) {
+
   article {
     float: left;
     width: 25%;
@@ -52,16 +54,14 @@ article {
   }
 
   article:nth-of-type(3n+1) {
-    margin: 2.5% 2.5% 2.5% 7.5%;
-  }
-
-  article:nth-of-type(3n+3) {
-    margin: 2.5% 7.5% 2.5% 2.5%;
+    margin: 2.5% 2.5% 2.5% 10%;
   }
 
   article:nth-of-type(3n+2) {
     margin: 2.5% 0 2.5% 0;
   }
 
-
+  article:nth-of-type(3n+3) {
+    margin: 2.5% 7.5% 2.5% 2.5%;
+  }
 }
