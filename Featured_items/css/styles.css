@@ -50,7 +50,7 @@ article .image {
   background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 1199px) {
   header h3 {
     float: left;
   }
@@ -74,6 +74,10 @@ article .image {
 }
 
 @media screen and (min-width: 1200px) {
+  header {
+    margin: 0 5%;
+  }
+
   header h3 {
     float: left;
   }
@@ -85,5 +89,15 @@ article .image {
   header h1 {
     text-align: center;
     clear: both;
+  }
+
+  article {
+    width: 18.75%;
+    margin: 2% 0 0 5%;
+    float: left;
+  }
+
+  article .image {
+    height: 24vh;
   }
 }
