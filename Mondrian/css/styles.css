@@ -48,3 +48,31 @@ article {
     margin: 0 2% 0 0;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  body {
+    padding: 10px;
+  }
+
+  #main {
+    float: left;
+    width: 73%;
+    margin: 0 15px 0 0;
+    height: 100%;
+  }
+
+  article {
+    float: left;
+    width: 22%;
+    margin: 0 0 0;
+    height: 49%;
+  }
+
+  article:first-of-type {
+    margin-bottom: 10px;
+  }
+
+  /*article:nth-of-type(n+2) {
+    margin-top: 1%;*/
+  }
+}
