@@ -25,15 +25,14 @@ body {
 
 article {
   margin: 7%;
-  height: 40%;
+  height: 30%;
 }
 
-@media screen and (min-width: 700px) and (max-width: 899px){
+@media screen and (min-width: 650px) and (max-width: 949px){
   article {
     float: left;
     width: 40%;
     height: 20%;
-    /*margin: 2.5% 2.5%;*/
   }
 
   article:nth-of-type(odd) {
@@ -45,6 +44,24 @@ article {
   }
 }
 
-@media screen and (min-width: 900px) {
-  
+@media screen and (min-width: 950px) {
+  article {
+    float: left;
+    width: 25%;
+    height: 20%;
+  }
+
+  article:nth-of-type(3n+1) {
+    margin: 2.5% 2.5% 2.5% 7.5%;
+  }
+
+  article:nth-of-type(3n+3) {
+    margin: 2.5% 7.5% 2.5% 2.5%;
+  }
+
+  article:nth-of-type(3n+2) {
+    margin: 2.5% 0 2.5% 0;
+  }
+
+
 }
