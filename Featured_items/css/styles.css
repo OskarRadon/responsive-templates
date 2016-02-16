@@ -18,17 +18,14 @@ body {
   max-width: 1400px;
 }
 
-header {
-  width: 100%;
-}
-
 #nav {
   list-style: none;
   padding: 0;
 }
 
 header {
-  margin-left: 2vw;
+  /*margin-left: 2vw;*/
+  margin: 0 2vw 0 2vw;
 }
 
 #nav li {
@@ -42,7 +39,7 @@ header h1 {
 }
 
 article {
-  margin: 2vw 0 2vw 2vw;
+  margin: 2vw;
 }
 
 article .image {
