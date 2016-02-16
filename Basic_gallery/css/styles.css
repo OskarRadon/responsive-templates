@@ -10,3 +10,20 @@
 }
 
 /* End for testing */
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+}
+
+#main {
+  width: 90%;
+  margin: 5%;
+  height: 15%;
+}
+
+article {
+  margin: 7%;
+  height: 40%;
+}
