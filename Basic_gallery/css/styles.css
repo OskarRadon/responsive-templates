@@ -27,3 +27,24 @@ article {
   margin: 7%;
   height: 40%;
 }
+
+@media screen and (min-width: 700px) and (max-width: 899px){
+  article {
+    float: left;
+    width: 40%;
+    height: 20%;
+    /*margin: 2.5% 2.5%;*/
+  }
+
+  article:nth-of-type(odd) {
+    margin: 2.5% 2.5% 2.5% 7.5%;
+  }
+
+  article:nth-of-type(even) {
+    margin: 2.5% 5% 2.5% 2.5%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  
+}
