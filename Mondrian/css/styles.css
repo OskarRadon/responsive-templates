@@ -12,7 +12,7 @@
 /* End for testing */
 
 body {
-  height: 525px;
+  height: 90vh;
   padding: 0 5%;
 }
 
@@ -32,20 +32,30 @@ article {
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 1099px) {
+  body {
+    padding: 3.5% 0 0 0;
+    height: 90vh;
+    width: 90vw;
+  }
 
   article {
-    width: 49%;
+    width: 42vw;
     float: left;
     margin: 0;
   }
 
   #main {
-    margin: 5% 0;
+    width: 92vw;
+    margin: 0 2vh 2vh 3.5%;
   }
 
-  article:first-of-type {
-    margin: 0 2% 0 0;
+  article:first-of-type{
+    margin-left: 3.5%;
+  }
+
+  article:nth-of-type(n+2){
+    margin-left: 2vw;
   }
 }
 
