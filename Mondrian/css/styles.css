@@ -12,23 +12,24 @@
 /* End for testing */
 
 body {
-  height: 90vh;
-  padding: 0 5%;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
 }
 
 
 #main, article {
-  margin: 10% 0;
+  margin: 5% 5%;
 }
 
 #main {
-  width: 100%;
-  height: 50%;
+  width: 90%;
+  height: 45vh;
 }
 
 article {
-  width: 100%;
-  height: 25%;
+  width: 90vw;
+  height: 22.5vh;
 }
 
 
