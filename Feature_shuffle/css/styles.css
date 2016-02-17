@@ -26,5 +26,33 @@ article img {
 }
 
 @media screen and (min-width: 600px) {
+  header p {
+    margin: 5% 0;
+  }
 
+  article img {
+    display: inline-block;
+    max-height: 15%;
+    max-width: 15%;
+  }
+
+  article {
+    overflow: auto;
+  }
+
+  article img:nth-of-type(odd) {
+    float: left;
+  }
+
+  article p:nth-last-of-type(odd), h4:nth-last-of-type(odd) {
+    float: right;
+  }
+
+  article img:nth-of-type(even) {
+    float: right;
+  }
+
+  article p:nth-last-of-type(even), h4:nth-last-of-type(even) {
+    float: left;
+  }
 }
